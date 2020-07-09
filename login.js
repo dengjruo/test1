@@ -8,10 +8,25 @@ $(window).scroll(function() {
         $("#rocket1").addClass("rocket1_take_off");
         $("#rocket2").addClass("rocket2_take_off");
         $("#rocket3").addClass("rocket3_take_off");
+
+        $(".progress1").addClass("progress1_run");
+        $(".progress2").addClass("progress2_run");
+        $(".progress3").addClass("progress3_run");
+        $(".progress4").addClass("progress4_run");
+        $(".progress5").addClass("progress5_run");
+        $(".progress6").addClass("progress6_run")
+
+
     } else if(scrollTop<3300){
         $("#rocket1").removeClass("rocket1_take_off");
         $("#rocket2").removeClass("rocket2_take_off");
         $("#rocket3").removeClass("rocket3_take_off");
+        $(".progress1").removeClass("progress1_run");
+        $(".progress2").removeClass("progress2_run");
+        $(".progress3").removeClass("progress3_run");
+        $(".progress4").removeClass("progress4_run");
+        $(".progress5").removeClass("progress5_run");
+        $(".progress6").removeClass("progress6_run");
     }
     console.log(scrollTop);
     if(scrollTop>=3800&&scrollTop<=5100){
@@ -29,7 +44,7 @@ $(window).scroll(function() {
     }
 
 
-    if(scrollTop>=900&&scrollTop<=1400){
+    if(scrollTop>=800&&scrollTop<=1400){
 
         $("#mengban1").addClass("mengban1");
         $("#mengban2").addClass("mengban2");
@@ -38,12 +53,12 @@ $(window).scroll(function() {
         $("#mengban4").addClass("mengban4");
         $("#mengban5").addClass("mengban5");
 
-    } else if(scrollTop<900){
+    } else if(scrollTop<800){
         $("#mengban1").removeClass("mengban1");
         $("#mengban2").removeClass("mengban2");
         $("#mengban3").removeClass("mengban3");
         $("#mengban3").removeClass("li3");
-        $("#mengban3").addClass("li3_bak");
+        //$("#mengban3").addClass("li3_bak");
         $("#mengban4").removeClass("mengban4");
         $("#mengban5").removeClass("mengban5");
 
