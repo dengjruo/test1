@@ -86,20 +86,28 @@
                             <div class="container2_right_title_select">Deselecr</div>
                             <div class="container2_right_title_sort">Sort by size <div></div></div>
                         </li>
-                        <li class="container2_content_right_cotent">
-                            <input type="checkbox" checked=“checked”><span>Application Junk Flies</span><span>3.0 GB</span>
+                        <li class="container2_content_right_cotent li1">
+                            <input type="checkbox" checked=“checked”><span>Application Junk Flies</span><span class="container2_right_cotent">3.0 GB</span>
+                            <div  id="mengban1" class="container2_li_mengban "></div>
                         </li>
-                        <li class="container2_content_right_cotent">
-                            <input type="checkbox" checked=“checked”><span>iTunes Backups</span><span>1.8 GB</span>
+                        <li class="container2_content_right_cotent li2">
+                            <input type="checkbox" checked=“checked”><span>iTunes Backups</span><span class="container2_right_cotent">1.8 GB</span>
+                            <div id="mengban2" class="container2_li_mengban "></div>
                         </li>
-                        <li class="container2_content_right_cotent">
-                            <input type="checkbox" checked=“checked”><span>Trash Cleanup</span><span>1.5 GB</span>
+                        <li class="container2_content_right_cotent li3">
+                            <input type="checkbox" checked=“checked”><span>Trash Cleanup</span><span class="container2_right_cotent">1.5 GB</span>
+                            <div  id="mengban3"class="container2_li_mengban "></div>
                         </li>
-                        <li class="container2_content_right_cotent">
-                            <input type="checkbox" checked=“checked”><span>Mac Software install...</span><span>1.2GB</span>
+                        <li class="container2_content_right_cotent li4">
+                            <input type="checkbox" checked=“checked”><span>Mac Software install...</span><span class="container2_right_cotent">1.2GB</span>
+                            <div id="mengban4" class="container2_li_mengban "></div>
                         </li>
-                        <li class="container2_content_right_cotent">
-                            <input type="checkbox" checked=“checked”><span>Old Application upd...</span><span>182.7 MB</span>
+                        <li class="container2_content_right_cotent li5">
+                            <input type="checkbox" checked=“checked”><span>Old Application upd...</span><span class="container2_right_cotent">182.7 MB</span>
+                            <div id="mengban5" class="container2_li_mengban "></div>
+                        </li>
+                        <li class="container2_content_right_cotent li6">
+                            <input type="checkbox" checked=“checked”><span>Language Flies</span><span class="container2_right_cotent">156.6 MB</span>
                         </li>
                     </ul>
                 </div>
@@ -115,9 +123,11 @@
                 </p>
             </div>
             <div id="radar">
-                <img class="radar_body"  src="images/雷达.png" alt="">
+                <!--<img class="radar_body"  src="images/雷达.png" alt="">-->
+                <div class="radar_body"></div>
                 <!--<img class="radar_scanning" id="scan" src="images/扫描.png" alt="">-->
-                <img class="speed" src="images/提速.png" alt="">
+                <div class="radar_scanning"></div>
+                <img class="speed " src="images/提速.png" alt="">
                 <div class="radar_floder">
                     <img src="images/形状%201%20拷贝%203.png" alt="">
                     <img  class="radar_textimg" src="images/Disk%20Optimization.png" alt="">
@@ -168,12 +178,16 @@
                 </ul>
             </div>
             <div id="children_list">
-                <img src="images/左边界面.png" alt="">
+                <!--<img src="images/左边界面.png" alt="">-->
+                <img class="gou1 gou1_run" src="images/gou.png" alt="">
+                <img class="gou2 gou2_run" src="images/gou.png" alt="">
+                <img class="gou3 gou3_run" src="images/gou.png" alt="">
+                <img class="gou4 gou4_run" src="images/gou.png" alt="">
             </div>
 
             <div id="container5_text">
                 <div class="container5_text1">Clean and Protect Your Privacy</div>
-                <div class="container5_text2">The Internet is something of a security minefield which is easy to get in trouble. The enhanced protection will clear the malicious tracking data to better protect your privacy and password for all kinds of accounts, leaving no rooms for all threats.</div>
+                <div class="container5_text2">The Internet is something of a security minefield which is easy to get in trouble. The enhanced protection will clear the malicious tracking data to better protect your privacy and password for all kinds of accounts, leaving no rooms for all threats.<span>Learn more ></span></div>
             </div>
 
         </div>
@@ -181,7 +195,24 @@
         <div id="container6">
             <div id="container6_pic">
                 <img class="chip" src="images/iconCleanMemory.png" alt="">
-                <img class="progress" src="images/圆角矩形%2015.png" alt="">
+
+                <div id="progress">
+                    <!--<img class="progress1 all_progress" src="images/圆角矩形%2015.png" alt="">-->
+                    <!--<img class="progress2 all_progress" src="images/圆角矩形%2015.png" alt="">-->
+                    <!--<img class="progress3 all_progress" src="images/圆角矩形%2015.png" alt="">-->
+                    <!--<img class="progress4 all_progress" src="images/圆角矩形%2015.png" alt="">-->
+                    <!--<img class="progress5 all_progress" src="images/圆角矩形%2015.png" alt="">-->
+                    <!--<img class="progress6 all_progress" src="images/圆角矩形%2015.png" alt="">-->
+
+                    <p class="progress1 all_progress"></p>
+                    <p class="progress2 all_progress"></p>
+                    <p class="progress3 all_progress"></p>
+                    <p class="progress4 all_progress"></p>
+                    <p class="progress5 all_progress"></p>
+                    <p class="progress6 all_progress"></p>
+
+
+                </div>
             </div>
             <div id="container6_text">
                 <p class="container6_text1">Memory Clean to Speed Up Mac</p>
@@ -204,7 +235,8 @@
 
             <div id="container7_pic">
                 <img class="container7_icon"src ="images/MacBooster%20Mini%20(固定).png" alt="">
-                <img class="container7_list" src="images/缩放.png" alt="">
+                <!--<img class="container7_list" src="images/缩放.png" alt="">-->
+                <div class="container7_list"></div>
             </div>
 
         </div>
