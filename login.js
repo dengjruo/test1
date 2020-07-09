@@ -29,7 +29,7 @@ $(window).scroll(function() {
     }
 
 
-    if(scrollTop>=950&&scrollTop<=1400){
+    if(scrollTop>=900&&scrollTop<=1400){
 
         $("#mengban1").addClass("mengban1");
         $("#mengban2").addClass("mengban2");
@@ -38,7 +38,7 @@ $(window).scroll(function() {
         $("#mengban4").addClass("mengban4");
         $("#mengban5").addClass("mengban5");
 
-    } else if(scrollTop<950){
+    } else if(scrollTop<900){
         $("#mengban1").removeClass("mengban1");
         $("#mengban2").removeClass("mengban2");
         $("#mengban3").removeClass("mengban3");
